@@ -1,0 +1,38 @@
+# Environment & Virtual Env
+venv/
+.env
+**/.env
+.venv/
+
+# Python Cache & Databases
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.sqlite3
+.pytest_cache/
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+node_modules/
+.next/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System
+.DS_Store
+Thumbs.db
+
+# Legacy / Previous project files (ignore from MerchantPilot repository)
+docs/
+src/
+.streamlit/
+chroma_db/
+Dockerfile
+render.yaml
