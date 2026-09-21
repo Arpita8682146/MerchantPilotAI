@@ -131,6 +131,7 @@ npm run dev
 `
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
+Primary Live Link: https://frontend-xi-three-54.vercel.app
 
 ---
 
