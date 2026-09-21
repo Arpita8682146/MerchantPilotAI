@@ -29,9 +29,9 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 
-# Legacy / Previous project files (ignore from MerchantPilot repository)
-docs/
-src/
+# Legacy / Previous project files (ignore only at repository root if present)
+/docs/
+/src/
 .streamlit/
 chroma_db/
 Dockerfile

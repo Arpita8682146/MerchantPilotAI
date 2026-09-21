@@ -1,4 +1,4 @@
-﻿# MerchantPilot AI
+# MerchantPilot AI
 > **"Turn every merchant into an AI-native store."**  
 > Built for **Razorpay AI Builder Buildathon 2026** — **Track 01: AI Growth & Agentic Commerce**
 
@@ -20,7 +20,7 @@ Unlike generic chatbots that hallucinate product specs or output conversational 
 
 ## 🏗️ System Architecture
 
-`mermaid
+```mermaid
 graph TD
     subgraph "Frontend (Next.js 14 + Tailwind + Lucide + Recharts)"
         CustomerUI["/ai-shop & /shop<br/>Conversational Sales Agent & Catalog"]
@@ -55,7 +55,7 @@ graph TD
     RecomEngine --> DB
     RazorpayModule --> AuditService
     RazorpayModule --> DB
-`
+```
 
 ---
 
